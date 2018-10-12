@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Carlos Henrique" content="">
+
+    <title>Segunda-atividade</title>
+
+    <!-- Bootstrap core CSS-->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/sb-admin.css" rel="stylesheet">
+<link href="./css/style-tow.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+<nav class="navbar" id="header">
+<div class="container" id="header-id"></div>
+</nav>
+
+<nav class="navbar navbar-expand navbar-light bg-light static-top" style="background-color:#fff;">
+
+  <a class="navbar-brand mr-1" href="index.html">
+  <div class=" col-sm-3 col-md-2 mr-0 menu-btn">
+  <span></span>
+  <span></span>
+  <span></span>
+  <p>Instituto EFT Brasil</p>
+        </div></a>
+
+      <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Navbar Search -->
+      <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <div class="input-group">
+          
+          <input type="text" class="form-control" placeholder="Pesquisar por..." aria-label="Search" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary" id="btn-buscar" type="button">
+              <i class="fas fa-search">Buscar</i>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Navbar -->
+      <ul class="navbar-nav ml-auto ml-md-0">
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link active" href="#">
+            <span data-feather="home"></span>
+            Painel de controle <span class="sr-only">(current)</span>
+          </a>
+          
+          
+        </li>
+        <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              
+              Produtor
+            </a>
+          </div>
+        </li>
+    </nav>
+
+    <div id="wrapper">
+
+
+      
+
+      <!-- Sidebar -->
+      <ul class="sidebar navbar-nav" id="sidebar-id">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Painel de Controle</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+   
+            <img class="fluid" src="./icones/calendar-alt.svg" style="width:18px;">
+            <span>Segurança</span >
+          </a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="charts.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <img class="fluid" src="./icones/sun.svg" style="width:18px;">
+            <span>Configurações</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">
+            <i class="fas fa-fw fa-table"></i>
+            <img class="fluid" src="./icones/calendar-alt.svg" style="width:18px;">
+            <span>Area do produtor</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tables.html">
+              <i class="fas fa-fw fa-table"></i>
+              <img class="fluid" src="./icones/calendar-alt.svg" style="width:18px;">
+              <span>Meus cursos</span></a>
+          </li>
+        </ul>
+        
+        </ul>
+        
+       
+      <div id="content-wrapper">
+
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="row">
+                  
+                  <div class="col">
+      
+                    <nav aria-label="Navegação de página exemplo" id="paginacao">
+                      <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">1. Dados pessoas</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2. Endereço</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3. Redes sociais</a></li>
+                      </ul>
+                    </nav>
+
+                    <br><br>
+<h2>Tipo usúario</h2>
+<br>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao1">
+                      <label class="form-check-label" for="inlineCheckbox1">Pessoa fisíca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="opcao2">
+                      <label class="form-check-label" for="inlineCheckbox2">Pessoa juridica</label>
+                    </div>
+                    <p>Email</p>
+                    <input type="email" class="form-control" id="/" name="text1" placeholder="produtor@mail.com">
+                    <br>
+                   <p>Nome exibição</p>
+                   <input type="text" class="form-control" id="/" name="text1" placeholder="Nome exibição">
+                   <br>
+                   <p>CNPJ *</p>
+                   <input type="text" class="form-control" id="/" name="text2" placeholder="CNPJ do usúario">
+                   <br>
+                   <p>Telefone</p>
+                   <input type="text" class="form-control" id="/" name="text3" placeholder="Telefone">
+                   <br>
+                   <button class="btn btn-primary" id="btn-buscar" type="submit">Enviar</button>
+                   <button class="btn btn-primary" id="btn-buscar" type="submit">Salvar e Continuar</button>
+                  </div>
+                  <div class="col" id="shart">
+                    
+                    <p>Razão Social *</p>
+                    <input type="text" class="form-control" id="/" name="text5" placeholder="Produtor">
+                    <br>
+                   <p>Nome do Certificado</p>
+                   <input type="text" class="form-control" id="/" name="text1" placeholder="Nome do Certificado">
+                   <br>
+                   <p>Célular *</p>
+                   <input type="text" class="form-control" id="/" name="text2" placeholder="Célular">
+                   <br>
+                   <p>WhatsApp</p>
+                   <input type="text" class="form-control" id="/" name="text1" placeholder="WhatsApp">
+                  </div>
+                </div>
+         </div>
+      </div>
+
+       
+
+        <!--  Footer -->
+        <footer class="sticky-footer">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright © Todos os direitos reservados || by Carlos Henrique 2018</span>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+      <!-- /. -->
+
+    </div>
+    <!-- /#wrapper -->
+  </body>
+
+</html>
