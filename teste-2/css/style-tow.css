@@ -1,3 +1,11 @@
+
+body{
+  height: 100%;
+    overflow: hidden;
+}
+html{
+    overflow: hidden;
+}
 .menu-btn{
 position: absolute;
     z-index: auto;
@@ -46,6 +54,6 @@ background-color: rgb(60, 63, 66);
 #header-id{
     background-color: rgb(19, 18, 18);
 }
-#shart{
-top: 204px;
+#shart-one{
+top: 6px;
 }
